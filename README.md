@@ -1,6 +1,47 @@
 # How to deploy?
 [Watch video tutorial on deploying](https://youtu.be/gXXFpTAk6Vo)
 
+## Deploy Now
+
+<details><summary><b>Deploy to Heroku</b></summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/thashaboom/GroupManager">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
+
+<details>
+  <summary><b>Deploy to Railway</b></summary>
+<br/>
+
+<p align="left">
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FZauteKm%2FVCPlayerBot"
+">
+     <img height="30px" src="https://railway.app/button.svg">
+  </a>
+</p>
+
+</a>
+</p>
+
+</details>
+
+<details>
+  <summary><b>Deploy in your VPS</b></summary>
+<br/>
+
+```sh
+$ git clone https://github.com/ZauteKm/VCPlayerBot.git
+$ cd VCPlayerBot
+$ sudo apt-get install python3-pip ffmpeg
+$ pip3 install -U pip
+$ pip3 install -U -r requirements.txt
+# <Create Variables appropriately (.env [optional])>
+$ python3 main.py
+```
+                                                            
 # GroupManager
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fxditya%2Fgroupmanager)
